@@ -1,0 +1,16 @@
+/*正常*/
+html{
+    font-size: 100px;
+}
+/*手机尺寸*/
+@media screen and (max-width: 750px) {
+    html{
+        font-size: 60px;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    html{
+        font-size: 120px;
+    }
+}
